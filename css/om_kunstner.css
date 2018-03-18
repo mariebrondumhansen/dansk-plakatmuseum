@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+/*Style til Ib Andersen*/
+.kunster-box{display: flex;
+	
+}
+.kunster-pic{display: block;
+	
+}
+/*end*/
+
+/*Udforsk*/
+/*end*/
+/*Test din viden*/
+.test-box{display: flex;
+}
+.knap{display: flex;
+	width: 500%;
+	height: 100px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	background-color: white;
+	border-style: solid;
+	border-color: black;	
+}
+.svar-tekst{margin-top: 7%;
+			align-items: center;
+			font-size: 25;
+
+}
+#sporgsmal{padding-left: 60%;}
+.sporgsmal{display:; 
+}
+.svar{display: flex;
+flex-direction: column;
+	padding-top: 5%;
+	
+}
+
+
