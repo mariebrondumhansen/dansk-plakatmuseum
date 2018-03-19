@@ -80,14 +80,14 @@
    <div id="tabs-3">
   <section class="test-box">
   
-   <div class="sporgsmal"><h2 id="sporgsmal">dette er et spørgsmål</h2>
+   <div class="sporgsmal"><h2 id="sporgsmal">Hvad er Ib Andersen udannet som?</h2>
     
   	<img src="images/Ib Andersen/csm_Ib-Andersen-Tivoli_8f96340e4e.jpg" width="50%" height="auto" alt=""/> </div>
  
    <div class="svar"> 
-  <div class="knap"><p class="svar-tekst">Hej med dig</p> </div>
-   <div class="knap"> <p class="svar-tekst">Hej med dig</p></div>
-   <div class="knap"> <p class="svar-tekst">Hej med dig</p> </div>
+  <div class="knap" id="a"><p class="svar-tekst"id="svar-a">Arkitekt</p> </div>
+   <div class="knap" id="b"> <p class="svar-tekst" id="svar-b">Skomager</p></div>
+   <div class="knap" id"c"> <p class="svar-tekst" id="svar-c">Bager</p> </div>
    </div>	
   	
   </section>
@@ -102,6 +102,18 @@
 <script>
 	$( "#tabs" ).tabs();
 		</script>
+		
+<script>
+$(document).ready(function() {
+  $("#a")
+    .click( function(e) {
+    /////////
+     $('#svara').html('<h1>Ib Andersen blev uddannet arkitekt fra Akademiets Bygningsskole og tilknyttet Poul Henningsens tegnestue i slutningen af 1920´erne.</h1>');
+      
+    }); // click function ends
+}); // ends document ready
+	
+	</script>
 		
 	
 </body>
