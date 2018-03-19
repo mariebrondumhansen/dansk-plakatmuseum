@@ -66,11 +66,11 @@
     <div class="kunster-pic"><img src="images/Ib Andersen/Ib-Andersen.jpg" width="450" height="450" alt=""/>
     <p cl>21.8.1907 – 2.4.1969</p></div>
         <div class="kunster-tekst">
-         <h2><img src="icon/student-hat.svg" alt="" width="5%"/>Om Ib Andersen</h2>
+         <h2><img src="icon/student-hat.svg" alt="" width="10%"/>Om Ib Andersen</h2>
           <p>Ib Andersen blev uddannet arkitekt fra Akademiets Bygningsskole og tilknyttet Poul Henningsens tegnestue i slutningen af 1920´erne.</p>
-          <h2><img src="icon/sprout.svg" alt="" width="5%"/>Arbejdsliv</h2>
+          <h2><img src="icon/sprout.svg" alt="" width="10%"/>Arbejdsliv</h2>
           <p>Allerede i en tidlig alder gjorde han sig i høj grad gældende som bladtegner og arbejdede i en årrække indtil 1960´erne for Politiken. Her debuterede Ib Andersen med forsiden til Magasinet i 1927. Evnen som tegner havde han fået i vuggegave efter sin far plakatkunstneren Valdemar Andersen.</p> 
-          <h2><img src="icon/artist (lys).svg" alt="" height="5%" width="5%"/>Kunstneriske særpræg</h2>
+          <h2><img src="icon/artist (lys).svg" alt="" width="10%"/>Kunstneriske særpræg</h2>
     <p>Ib Andersens plakater er mesterlige og præcise. Hans udtryk er præget af kubismens former og et fabulerende farvesprog. Balancen mellem tegning og typografi optog ham meget og han tegnede ofte selv sine bogstaver. Hans Tivoliplakat med luftgyngen fra 1943 står stadig stærkt og er fortsat efterspurgt.</p></div>
   </div>
   </section>
@@ -87,14 +87,14 @@
    <div id="tabs-3">
   <section class="test-box">
   
-   <div class="sporgsmal"><h2 id="sporgsmal">dette er et spørgsmål</h2>
+   <div class="sporgsmal"><h2 id="sporgsmal">Hvad er Ib Andersen udannet som?</h2>
     
   	<img src="images/Ib Andersen/csm_Ib-Andersen-Tivoli_8f96340e4e.jpg" width="50%" height="auto" alt=""/> </div>
  
    <div class="svar"> 
-  <div class="knap"><p class="svar-tekst">Hej med dig</p> </div>
-   <div class="knap"> <p class="svar-tekst">Hej med dig</p></div>
-   <div class="knap"> <p class="svar-tekst">Hej med dig</p> </div>
+  <div class="knap" id="a"><p class="svar-tekst"id="svar-a">Arkitekt</p> </div>
+   <div class="knap" id="b"> <p class="svar-tekst" id="svar-b">Skomager</p></div>
+   <div class="knap" id"c"> <p class="svar-tekst" id="svar-c">Bager</p> </div>
    </div>	
   	
   </section>
@@ -109,6 +109,22 @@
 <script>
 	$( "#tabs" ).tabs();
 		</script>
+		
+<script>
+$(document).ready(function() {
+  /*
+  Animation: in Jq, CSS and Jq
+  You can switch accoring to needs
+  */
+  $("#a")
+    .click( function(e) {
+    /////////
+     $('.svar').html('<p>Ib Andersen blev uddannet arkitekt fra Akademiets Bygningsskole og tilknyttet Poul Henningsens tegnestue i slutningen af 1920´erne.</p>' );
+      
+    }); // click function ends
+}); // ends document ready
+	
+	</script>
 		
 	
 </body>
