@@ -10,6 +10,23 @@
 /*end*/
 
 /*Udforsk*/
+#images{
+    display: flex;
+    flex-direction: row;
+    padding-left: 6%;
+}
+#info_udforsk{
+    margin-left: 8.4%;
+    margin-right: 10%;
+}
+.img{
+height: 30%;
+width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
 /*end*/
 /*Test din viden*/
 .test-box{display: flex;
